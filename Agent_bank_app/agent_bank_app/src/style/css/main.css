@@ -71,7 +71,7 @@ body {
 }
 
 .hero {
-  background-image: url('../../assets/img/bank-tree.jpeg');
+  background-image: url("../../assets/img/bank-tree.jpeg");
   background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,7 +105,6 @@ body {
     height: 400px;
     background-position: 0% 33%;
   }
-
   .hero-content {
     position: absolute;
     top: 50px;
@@ -113,16 +112,13 @@ body {
     width: 300px;
     margin: 2rem;
   }
-
   .hero-content .subtitle {
     font-size: 1.5rem;
   }
-
   .hero-content .text {
     font-size: 1.2rem;
   }
 }
-
 .features {
   display: flex;
   flex-direction: column;
@@ -133,7 +129,6 @@ body {
     flex-direction: row;
   }
 }
-
 .feature-icon {
   width: 100px;
   border: 10px solid #00bc77;
@@ -151,6 +146,12 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+
+.container-signin {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .sign-in-button {
@@ -280,12 +281,46 @@ body {
   .account {
     flex-direction: row;
   }
-
   .account-content-wrapper.cta {
     flex: 0;
   }
-
   .transaction-button {
     width: 200px;
   }
 }
+.editusername {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.editusername_title {
+  color: #fff;
+}
+.editusername_labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.editusername_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 15px;
+}
+.editusername_button {
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+}
+
+.pb_auth {
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
